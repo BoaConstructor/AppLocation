@@ -79,11 +79,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        LocationManager.shared.getUserLocation{ _ in
-//
-//            print("Замыкание сработало")
-//
-//        }
+
     
         DispatchQueue.global().async {
             LocationManager.shared.getUserLocation { location in
