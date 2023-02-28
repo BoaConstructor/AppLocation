@@ -77,7 +77,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var altitude: UILabel!
+    
+    
+    @IBOutlet weak var logtitude: UILabel!
+
+    
+    
+    
     override func viewDidLoad() {
+        
+        
+        
+        
         super.viewDidLoad()
 
     
@@ -114,5 +126,11 @@ class ViewController: UIViewController {
         
         
     }
+    
+    
+    @IBAction func ButtonCoordinate(_ sender: Any) {
+    }
+    
+    
 }
 
