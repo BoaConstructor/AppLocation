@@ -81,34 +81,31 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var logtitude: UILabel!
+    
+    
 
     
     
     
     override func viewDidLoad() {
-        
-        
-        
-        
         super.viewDidLoad()
 
-    
-        DispatchQueue.global().async {
-            LocationManager.shared.getUserLocation { location in
-                 // понять почему не выполняется комплишн
-                
-              var a =  location //это служит для передачи данных
-                print("Сработало блядь \(a)")
-                
-            }
-                
+        self.altitude.text = ""
+        self.logtitude.text = ""
+        
+        
+        
+        
+      
+            
+            
         }
         
+    @IBAction func CoordinateButton(_ sender: UIButton) {
         
-        
-        
-        
-        
+        LetFindYourLocation()
+    }
+    
 //        LocationManager.shared.getUserLocation { [weak self] location in
 //
 //            DispatchQueue.global().async {
@@ -118,19 +115,37 @@ class ViewController: UIViewController {
 //
 //                print(location.coordinate)
 //            }
-//
-//
-//
-//
+
 //        }
+    
+    func LetFindYourLocation() {
+        
+        DispatchQueue.global().async {
+            LocationManager.shared.getUserLocation { location in
+                // понять почему не выполняется комплишн
+                var a =  location //это служит для передачи данных
+                var longti = location.coordinate.longitude
+                var lati = location.coordinate.latitude
+                
+                DispatchQueue.main.async {
+                    self.logtitude.text = "logtitude " + String(longti)
+                    self.altitude.text = "altitude " + String(lati)
+                }
+             
+                
+                
+                
+                print("Сработало блядь \(a)")
+            }
+            
+        }
+        
+    }
         
         
     }
     
     
-    @IBAction func ButtonCoordinate(_ sender: Any) {
-    }
     
-    
-}
+
 

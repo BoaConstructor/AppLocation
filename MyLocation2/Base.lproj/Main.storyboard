@@ -36,7 +36,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="ButtonCoordinate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nhM-NF-qQq"/>
+                                    <action selector="CoordinateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oaz-I7-HTc"/>
                                 </connections>
                             </button>
                         </subviews>
