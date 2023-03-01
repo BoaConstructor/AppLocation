@@ -106,17 +106,6 @@ class ViewController: UIViewController {
         LetFindYourLocation()
     }
     
-//        LocationManager.shared.getUserLocation { [weak self] location in
-//
-//            DispatchQueue.global().async {
-//                guard let strongSelf = self else{
-//                    return
-//                }
-//
-//                print(location.coordinate)
-//            }
-
-//        }
     
     func LetFindYourLocation() {
         
