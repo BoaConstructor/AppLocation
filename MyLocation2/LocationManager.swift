@@ -33,7 +33,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate  {
                 self.completion!(location)
                 
             } else {
-                print("Хрен вам а не координаты")
+                print("Хрен вам а не координаты") // добавить сюда функционал чтобы ошибка передавалась на экран
             }
         
      
