@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808EFA629C2FABF00045B8F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFA529C2FABF00045B8F /* ViewController2.swift */; };
 		181EBE8A29A42A0C00FF05CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8929A42A0C00FF05CB /* AppDelegate.swift */; };
 		181EBE8C29A42A0C00FF05CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */; };
 		181EBE8E29A42A0C00FF05CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8D29A42A0C00FF05CB /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1808EFA529C2FABF00045B8F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		181EBE8629A42A0C00FF05CB /* MyLocation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181EBE8929A42A0C00FF05CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				181EBE9A29A42A0E00FF05CB /* Info.plist */,
 				181EBE9229A42A0C00FF05CB /* MyLocation2.xcdatamodeld */,
 				181EBEA029A42E3500FF05CB /* LocationManager.swift */,
+				1808EFA529C2FABF00045B8F /* ViewController2.swift */,
 			);
 			path = MyLocation2;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				181EBEA129A42E3500FF05CB /* LocationManager.swift in Sources */,
 				181EBE8A29A42A0C00FF05CB /* AppDelegate.swift in Sources */,
 				181EBE8C29A42A0C00FF05CB /* SceneDelegate.swift in Sources */,
+				1808EFA629C2FABF00045B8F /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

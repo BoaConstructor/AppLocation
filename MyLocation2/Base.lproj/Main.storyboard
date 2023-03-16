@@ -25,15 +25,31 @@
             </objects>
             <point key="canvasLocation" x="-1224" y="1192"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="KWY-OU-jDD">
             <objects>
-                <viewController id="KyK-2n-tFT" sceneMemberID="viewController">
+                <viewController id="KyK-2n-tFT" customClass="ViewController2" customModule="MyLocation2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f4J-pQ-WgL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3z7-l9-MoL">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Mh9-he-Wbs"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="3z7-l9-MoL" firstAttribute="leading" secondItem="Mh9-he-Wbs" secondAttribute="leading" id="AaZ-0p-Gi1"/>
+                            <constraint firstItem="Mh9-he-Wbs" firstAttribute="trailing" secondItem="3z7-l9-MoL" secondAttribute="trailing" id="ErO-Up-IWe"/>
+                            <constraint firstItem="3z7-l9-MoL" firstAttribute="top" secondItem="Mh9-he-Wbs" secondAttribute="top" id="Lcq-zw-Zhc"/>
+                            <constraint firstItem="3z7-l9-MoL" firstAttribute="leading" secondItem="Mh9-he-Wbs" secondAttribute="leading" id="Ne5-zc-Tfu"/>
+                            <constraint firstItem="3z7-l9-MoL" firstAttribute="top" secondItem="Mh9-he-Wbs" secondAttribute="top" id="TBk-Ac-Xaz"/>
+                            <constraint firstItem="Mh9-he-Wbs" firstAttribute="trailing" secondItem="3z7-l9-MoL" secondAttribute="trailing" id="TFg-sz-84e"/>
+                            <constraint firstItem="Mh9-he-Wbs" firstAttribute="bottom" secondItem="3z7-l9-MoL" secondAttribute="bottom" id="aCC-rJ-M2a"/>
+                            <constraint firstItem="Mh9-he-Wbs" firstAttribute="bottom" secondItem="3z7-l9-MoL" secondAttribute="bottom" id="bKD-iX-QK7"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="more" id="cay-JG-mbX"/>
                 </viewController>
