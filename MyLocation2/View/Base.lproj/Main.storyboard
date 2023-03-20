@@ -37,13 +37,40 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="710"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="DVx-XJ-C48">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="77" id="DVx-XJ-C48" customClass="CustomCell" customModule="MyLocation2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="77"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DVx-XJ-C48" id="Uiz-o8-bf6">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="77"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqq-VP-4mf">
+                                                    <rect key="frame" x="40" y="12" width="313" height="19"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvk-8A-mT4">
+                                                    <rect key="frame" x="40" y="41" width="313" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="tqq-VP-4mf" firstAttribute="top" secondItem="Uiz-o8-bf6" secondAttribute="topMargin" constant="1" id="8Wc-fn-Vyu"/>
+                                                <constraint firstItem="jvk-8A-mT4" firstAttribute="leading" secondItem="Uiz-o8-bf6" secondAttribute="leadingMargin" constant="20" id="Duz-tz-9U1"/>
+                                                <constraint firstItem="jvk-8A-mT4" firstAttribute="top" secondItem="tqq-VP-4mf" secondAttribute="bottom" constant="10" id="HwB-YM-sHm"/>
+                                                <constraint firstItem="tqq-VP-4mf" firstAttribute="leading" secondItem="Uiz-o8-bf6" secondAttribute="leadingMargin" constant="20" id="Jju-X8-JNS"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="jvk-8A-mT4" secondAttribute="trailing" constant="20" id="Pe1-lo-aq3"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="jvk-8A-mT4" secondAttribute="bottom" constant="4" id="SNo-bu-pow"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="tqq-VP-4mf" secondAttribute="trailing" constant="20" id="Wc4-Kx-6Oo"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="altitudeLabel" destination="tqq-VP-4mf" id="tpg-BZ-sUd"/>
+                                            <outlet property="longtitudeLabel" destination="jvk-8A-mT4" id="Q5V-Bd-wad"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -68,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ikB-Z5-HTM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2685" y="1256"/>
+            <point key="canvasLocation" x="-2686.2595419847326" y="1254.9295774647887"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mVg-9A-LCV">

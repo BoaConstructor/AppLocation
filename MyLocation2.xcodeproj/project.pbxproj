@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1808EFA629C2FABF00045B8F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFA529C2FABF00045B8F /* ViewController2.swift */; };
+		1808EFAA29C82B9500045B8F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFA929C82B9500045B8F /* CustomCell.swift */; };
+		1808EFAF29C8326300045B8F /* Coordinat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFAE29C8326300045B8F /* Coordinat.swift */; };
 		181EBE8A29A42A0C00FF05CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8929A42A0C00FF05CB /* AppDelegate.swift */; };
 		181EBE8C29A42A0C00FF05CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */; };
 		181EBE8E29A42A0C00FF05CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8D29A42A0C00FF05CB /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		1808EFA529C2FABF00045B8F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		1808EFA929C82B9500045B8F /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		1808EFAE29C8326300045B8F /* Coordinat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinat.swift; sourceTree = "<group>"; };
 		181EBE8629A42A0C00FF05CB /* MyLocation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181EBE8929A42A0C00FF05CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1808EFAB29C8311500045B8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				181EBEA029A42E3500FF05CB /* LocationManager.swift */,
+				1808EFAE29C8326300045B8F /* Coordinat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1808EFAC29C8313600045B8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1808EFA929C82B9500045B8F /* CustomCell.swift */,
+				181EBE8F29A42A0C00FF05CB /* Main.storyboard */,
+				181EBE9729A42A0E00FF05CB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1808EFAD29C8315200045B8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1808EFA529C2FABF00045B8F /* ViewController2.swift */,
+				181EBE8929A42A0C00FF05CB /* AppDelegate.swift */,
+				181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */,
+				181EBE8D29A42A0C00FF05CB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		181EBE7D29A42A0C00FF05CB = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +96,12 @@
 		181EBE8829A42A0C00FF05CB /* MyLocation2 */ = {
 			isa = PBXGroup;
 			children = (
-				181EBE8929A42A0C00FF05CB /* AppDelegate.swift */,
-				181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */,
-				181EBE8D29A42A0C00FF05CB /* ViewController.swift */,
-				181EBE8F29A42A0C00FF05CB /* Main.storyboard */,
+				1808EFAD29C8315200045B8F /* Controller */,
+				1808EFAC29C8313600045B8F /* View */,
+				1808EFAB29C8311500045B8F /* Model */,
 				181EBE9529A42A0E00FF05CB /* Assets.xcassets */,
-				181EBE9729A42A0E00FF05CB /* LaunchScreen.storyboard */,
 				181EBE9A29A42A0E00FF05CB /* Info.plist */,
 				181EBE9229A42A0C00FF05CB /* MyLocation2.xcdatamodeld */,
-				181EBEA029A42E3500FF05CB /* LocationManager.swift */,
-				1808EFA529C2FABF00045B8F /* ViewController2.swift */,
 			);
 			path = MyLocation2;
 			sourceTree = "<group>";
@@ -152,6 +182,8 @@
 				181EBEA129A42E3500FF05CB /* LocationManager.swift in Sources */,
 				181EBE8A29A42A0C00FF05CB /* AppDelegate.swift in Sources */,
 				181EBE8C29A42A0C00FF05CB /* SceneDelegate.swift in Sources */,
+				1808EFAF29C8326300045B8F /* Coordinat.swift in Sources */,
+				1808EFAA29C82B9500045B8F /* CustomCell.swift in Sources */,
 				1808EFA629C2FABF00045B8F /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

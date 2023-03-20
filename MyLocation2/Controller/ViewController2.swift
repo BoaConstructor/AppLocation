@@ -16,6 +16,11 @@ class ViewController2: UIViewController {
     
     let names = ["Раз","Два","Три","Четыре","Пять","Вышел"," Зайчик","Погу","Лять","Блядь","Блядь","Блядь"]
     
+
+    
+   
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -57,10 +62,14 @@ extension ViewController2: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: IndexPath())
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: IndexPath())as! CustomCell
         
-        cell.backgroundColor = .blue
-        cell.textLabel?.text = names[indexPath.row]
+        cell.altitudeLabel.text = "Широта"
+        cell.longtitudeLabel.text = "Долгота"
+        
+//        cell.backgroundColor = .blue
+//        cell.textLabel?.text = names[indexPath.row]
+        
         
         return cell
     }

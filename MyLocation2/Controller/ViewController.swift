@@ -75,6 +75,9 @@ import CoreLocation
 
 import UIKit
 
+
+
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var altitude: UILabel!
@@ -83,9 +86,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var logtitude: UILabel!
     
     
+    func appendr() {
+        
+        var coord:[Coordinat] = []
+        var newelement = Coordinat(altitude: "aaa", longtitude: "ddd")
+        coord.append(newelement)
+        
+    } // просто функция добавляющая координаты в массив
+    
+    
 
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -93,9 +103,8 @@ class ViewController: UIViewController {
         self.altitude.text = ""
         self.logtitude.text = ""
         
-        
-        
-        
+        appendr()
+       
       
             
             
