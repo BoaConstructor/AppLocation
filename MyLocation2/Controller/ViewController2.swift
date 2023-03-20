@@ -62,7 +62,7 @@ extension ViewController2: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: IndexPath())as! CustomCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: IndexPath())as! CustomCell //тут надо просто даункастить до своей кастомной ячейки
         
         cell.altitudeLabel.text = "Широта"
         cell.longtitudeLabel.text = "Долгота"
