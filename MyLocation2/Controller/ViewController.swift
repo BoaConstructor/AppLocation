@@ -82,6 +82,7 @@ class ViewController: UIViewController {
     
     
     var fgt = "только для коммита"
+    var fgt2 = "только для коммита"
     
     @IBOutlet weak var altitude: UILabel!
     
