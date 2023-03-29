@@ -80,6 +80,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    var fgt = "только для коммита"
+    
     @IBOutlet weak var altitude: UILabel!
     
     
