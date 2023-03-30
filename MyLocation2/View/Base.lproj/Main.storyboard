@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller3-->
+        <!--Map View Controller-->
         <scene sceneID="UPv-UL-zLD">
             <objects>
-                <viewController id="t0m-Gk-ke4" customClass="ViewController3" customModule="MyLocation2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="t0m-Gk-ke4" customClass="MapViewController" customModule="MyLocation2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OsZ-O5-yhc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-1224" y="1192"/>
         </scene>
-        <!--View Controller2-->
+        <!--Table Try View Controller-->
         <scene sceneID="KWY-OU-jDD">
             <objects>
-                <viewController id="KyK-2n-tFT" customClass="ViewController2" customModule="MyLocation2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KyK-2n-tFT" customClass="TableTryViewController" customModule="MyLocation2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f4J-pQ-WgL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,10 +118,10 @@
             </objects>
             <point key="canvasLocation" x="-2460" y="509"/>
         </scene>
-        <!--View Controller-->
+        <!--Coordinat View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyLocation2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CoordinatViewController" customModule="MyLocation2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

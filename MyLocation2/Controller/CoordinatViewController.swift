@@ -78,7 +78,7 @@ import UIKit
 
 
 
-class ViewController: UIViewController {
+class CoordinatViewController: UIViewController {
     
     
     var fgt = "только для коммита"

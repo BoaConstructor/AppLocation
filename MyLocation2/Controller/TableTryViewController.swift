@@ -10,7 +10,9 @@ import UIKit
 
 
 
-class ViewController2: UIViewController {
+class TableTryViewController: UIViewController {
+   
+    
   
     @IBOutlet weak var tableView: UITableView!
     
@@ -42,37 +44,39 @@ class ViewController2: UIViewController {
     
 }
 
+//MARK: Делегаты таблицы
+extension TableTryViewController: UITableViewDelegate {
 
-extension ViewController2: UITableViewDelegate {
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) { //функция срабатывает как только ты нажимаешь на ряд
         print("Йа нажато")
     }
-    
+
 }
 
-extension ViewController2: UITableViewDataSource {
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
+//MARK: Датасорсы таблицы
+
+extension TableTryViewController: UITableViewDataSource {
+
+    func numberOfSections(in tableView: UITableView) -> Int { // возвращает колличество секций
         return 1
     }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return names.count
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { //возвращает коллличество рядов в таблице
+        return names.count // у нас столько рядов сколько элементов в массиве
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: IndexPath())as! CustomCell //тут надо просто даункастить до своей кастомной ячейки
-        
+
         cell.altitudeLabel.text = "Широта"
         cell.longtitudeLabel.text = "Долгота"
-        
+
 //        cell.backgroundColor = .blue
 //        cell.textLabel?.text = names[indexPath.row]
-        
-        
+
+
         return cell
     }
-    
-    
+
+
 }

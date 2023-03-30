@@ -12,7 +12,7 @@ import CoreLocation
 class LocationManager: NSObject, CLLocationManagerDelegate  {
     
     
-    static let shared = LocationManager()
+    static let shared = LocationManager() //синглтон
     
     let manager = CLLocationManager()
     var completion: ((CLLocation)->Void)?
@@ -22,7 +22,6 @@ class LocationManager: NSObject, CLLocationManagerDelegate  {
     public func getUserLocation (completion: @escaping ((CLLocation)->Void)) {
         self.completion = completion
         
-
             manager.requestWhenInUseAuthorization()
             manager.delegate = self
             manager.startUpdatingLocation()
@@ -40,6 +39,10 @@ class LocationManager: NSObject, CLLocationManagerDelegate  {
         
     }
     
+    
+    
+    
+    //MARK: Методы делегата локайшн менеджера
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) { //это вызывается когда доступны новые координаты
         guard let location = locations.first else {
             
@@ -49,6 +52,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate  {
         //completion?(location)
         manager.stopUpdatingLocation()
     }
+  
     
    
     

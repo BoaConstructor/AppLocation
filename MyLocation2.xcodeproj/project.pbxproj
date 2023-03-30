@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1808EFA629C2FABF00045B8F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFA529C2FABF00045B8F /* ViewController2.swift */; };
+		1808EFA629C2FABF00045B8F /* TableTryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFA529C2FABF00045B8F /* TableTryViewController.swift */; };
 		1808EFAA29C82B9500045B8F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFA929C82B9500045B8F /* CustomCell.swift */; };
 		1808EFAF29C8326300045B8F /* Coordinat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFAE29C8326300045B8F /* Coordinat.swift */; };
-		1808EFB129C8CB9000045B8F /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFB029C8CB9000045B8F /* ViewController3.swift */; };
+		1808EFB129C8CB9000045B8F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFB029C8CB9000045B8F /* MapViewController.swift */; };
 		1808EFB329C8CF8200045B8F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFB229C8CF8200045B8F /* CustomButton.swift */; };
 		1808EFB529C8D05900045B8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808EFB429C8D05900045B8F /* Constants.swift */; };
 		181EBE8A29A42A0C00FF05CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8929A42A0C00FF05CB /* AppDelegate.swift */; };
 		181EBE8C29A42A0C00FF05CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */; };
-		181EBE8E29A42A0C00FF05CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8D29A42A0C00FF05CB /* ViewController.swift */; };
+		181EBE8E29A42A0C00FF05CB /* CoordinatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE8D29A42A0C00FF05CB /* CoordinatViewController.swift */; };
 		181EBE9129A42A0C00FF05CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181EBE8F29A42A0C00FF05CB /* Main.storyboard */; };
 		181EBE9429A42A0C00FF05CB /* MyLocation2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 181EBE9229A42A0C00FF05CB /* MyLocation2.xcdatamodeld */; };
 		181EBE9629A42A0E00FF05CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181EBE9529A42A0E00FF05CB /* Assets.xcassets */; };
@@ -24,16 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1808EFA529C2FABF00045B8F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		1808EFA529C2FABF00045B8F /* TableTryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTryViewController.swift; sourceTree = "<group>"; };
 		1808EFA929C82B9500045B8F /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		1808EFAE29C8326300045B8F /* Coordinat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinat.swift; sourceTree = "<group>"; };
-		1808EFB029C8CB9000045B8F /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		1808EFB029C8CB9000045B8F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1808EFB229C8CF8200045B8F /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		1808EFB429C8D05900045B8F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181EBE8629A42A0C00FF05CB /* MyLocation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181EBE8929A42A0C00FF05CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		181EBE8D29A42A0C00FF05CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181EBE8D29A42A0C00FF05CB /* CoordinatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatViewController.swift; sourceTree = "<group>"; };
 		181EBE9029A42A0C00FF05CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181EBE9329A42A0C00FF05CB /* MyLocation2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLocation2.xcdatamodel; sourceTree = "<group>"; };
 		181EBE9529A42A0E00FF05CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,11 +77,11 @@
 		1808EFAD29C8315200045B8F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1808EFA529C2FABF00045B8F /* ViewController2.swift */,
+				1808EFA529C2FABF00045B8F /* TableTryViewController.swift */,
 				181EBE8929A42A0C00FF05CB /* AppDelegate.swift */,
 				181EBE8B29A42A0C00FF05CB /* SceneDelegate.swift */,
-				181EBE8D29A42A0C00FF05CB /* ViewController.swift */,
-				1808EFB029C8CB9000045B8F /* ViewController3.swift */,
+				181EBE8D29A42A0C00FF05CB /* CoordinatViewController.swift */,
+				1808EFB029C8CB9000045B8F /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,17 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181EBE8E29A42A0C00FF05CB /* ViewController.swift in Sources */,
+				181EBE8E29A42A0C00FF05CB /* CoordinatViewController.swift in Sources */,
 				1808EFB529C8D05900045B8F /* Constants.swift in Sources */,
 				181EBE9429A42A0C00FF05CB /* MyLocation2.xcdatamodeld in Sources */,
-				1808EFB129C8CB9000045B8F /* ViewController3.swift in Sources */,
+				1808EFB129C8CB9000045B8F /* MapViewController.swift in Sources */,
 				181EBEA129A42E3500FF05CB /* LocationManager.swift in Sources */,
 				1808EFB329C8CF8200045B8F /* CustomButton.swift in Sources */,
 				181EBE8A29A42A0C00FF05CB /* AppDelegate.swift in Sources */,
 				181EBE8C29A42A0C00FF05CB /* SceneDelegate.swift in Sources */,
 				1808EFAF29C8326300045B8F /* Coordinat.swift in Sources */,
 				1808EFAA29C82B9500045B8F /* CustomCell.swift in Sources */,
-				1808EFA629C2FABF00045B8F /* ViewController2.swift in Sources */,
+				1808EFA629C2FABF00045B8F /* TableTryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
